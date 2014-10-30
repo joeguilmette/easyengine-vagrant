@@ -7,11 +7,11 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  config.vm.box = "ubuntu/precise32"
+  config.vm.box = "ubuntu/trusty64"
 
   config.vm.provider "virtualbox" do |v|
   
-     v.name = "ubuntu12.04-32"
+     v.name = "ubuntu14.04-64"
 
   end
 
